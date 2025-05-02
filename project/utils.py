@@ -5,7 +5,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="teNma!511",
+        password="enter your password here ",
         database="oems"
     )
 def get_db_connection_student():
